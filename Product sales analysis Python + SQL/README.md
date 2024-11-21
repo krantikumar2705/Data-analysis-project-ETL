@@ -1,17 +1,32 @@
-# ETL and Data Analysis Project
+# ETL and Data Analysis Project with Kaggle API Integration
 
-This project demonstrates an ETL (Extract, Transform, Load) pipeline and data analysis using Python and SQL. The goal of the project is to process raw data, transform it into a usable format, and perform analysis to extract meaningful insights. It uses Python for data processing and SQL for querying data from a relational database.
-DAtaset Link https://www.kaggle.com/datasets/ankitbansal06/retail-orders
-## Table of Contents
+This project demonstrates an ETL (Extract, Transform, Load) pipeline that includes data extraction from Kaggle using the Kaggle API, transforming the data using Python, and loading it into a relational SQL database for analysis. The goal is to fetch datasets from Kaggle, process them, and perform SQL-based data analysis and visualization.
+## Overview
+
+This project covers the following steps:
+
+1. **Extract**: Fetch data from Kaggle using the Kaggle API.
+2. **Transform**: Clean and preprocess the data using Python libraries like Pandas and NumPy.
+3. **Load**: Store the transformed data into a SQL database (e.g., MySQL, PostgreSQL, SQLite).
+4. **Data Analysis**: Perform data analysis and generate insights using SQL queries and Python-based visualization libraries.
+
+### Features
+
+- **Kaggle API Integration**: Fetch datasets directly from Kaggle.
+- **ETL**: Data extraction, transformation, and loading into a database.
+- **SQL Data Extraction**: Use SQL queries to perform data analysis and aggregation.
+- **Data Visualization**: Use Python's Matplotlib and Seaborn for visualizing key metrics.
+
+## Project Structure
+
+
 
 ## Overview
 ![PROject](https://github.com/user-attachments/assets/4549054c-9b84-402c-99ed-856be54747ec)
 
-This project involves the following steps:
-
-1. **ETL Pipeline**: Extracts data from a source (e.g., a database or CSV files), transforms it to fit the analysis requirements, and loads it into a destination (such as a database or data warehouse).
-2. **SQL Data Extraction**: Uses SQL queries to manipulate, aggregate, and analyze data stored in a relational database.
-3. **Data Analysis**: Python is used for data manipulation, transformation, and visualization. Libraries such as Pandas, NumPy, and Matplotlib are used for analysis and plotting results.
+This project involves the following steps:.
+**SQL Data Extraction**: Uses SQL queries to manipulate, aggregate, and analyze data stored in a relational database.
+**Data Analysis**: Python is used for data manipulation, transformation, and visualization. Libraries such as Pandas, NumPy, and Matplotlib are used for analysis and plotting results.
 
 ### Features
 
@@ -23,11 +38,10 @@ This project involves the following steps:
 ## Technologies Used
 
 - **Python**: For data processing, transformation, and analysis.
-  - Libraries: `Pandas`, `NumPy`, `SQLAlchemy`, `Matplotlib`
+  - Libraries: `Pandas`, `SQLAlchemy`,`kaggle`,`zipfile`
 - **SQL**: For querying and analyzing data in the database.
 - **Jupyter Notebooks**: For interactive data exploration and analysis.
-- **Database**: The project assumes the use of a relational database (e.g., MySQL, PostgreSQL, SQLite).
-- **Version Control**: Git and GitHub for version control and collaboration.
+- **Database**: The project assumes the use of a relational database (e.g., MySQL).
 
 ## Installation
 
